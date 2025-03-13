@@ -607,5 +607,12 @@ extraObjects:
     metadata:
       name: '{{ template "cert-manager-istio-csr.fullname" . }}-extra-configmap'
 ```
+#### **podDisruptionBudget** ~ `object`
+> Default value:
+> ```yaml
+> {}
+> ```
+
+Configures a disruption budget for istio-csr.
 
 <!-- /AUTO-GENERATED -->
